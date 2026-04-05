@@ -1,0 +1,38 @@
+# --- Go Binaries & Artifacts ---
+# Compiled binaries (executables)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binaries and coverage reports
+*.test
+*.out
+*.coverprofile
+profile.cov
+
+# --- Go Dependencies ---
+# Go workspace file
+go.work
+go.work.sum
+
+# Vendor directory (uncomment if you want to exclude it)
+# vendor/
+
+# --- IntelliJ / JetBrains ---
+# Most files in .idea/ should be ignored to avoid "churn"
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Misc / Environment ---
+# Environment variables (sensitive data)
+.env
+.env.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
